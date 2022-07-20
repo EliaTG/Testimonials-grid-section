@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto&family=Source+Sans+Pro&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 }
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Barlow', sans-serif;
     background-color: white;
 }
 .container{
@@ -53,6 +52,7 @@ body{
 .testimonial h3{
     font-size: 18px;
     color: white;
+    /* z-index: 2; */
 }
 .paragraph-testimonial{
     font-size: 14px;
@@ -83,6 +83,7 @@ img{
     flex-direction: row;
     align-items: center;
     margin: 0 0 15px 0;
+    width: 100%;
 }
 .daniel-testimonial{
     height: 100%;
@@ -90,7 +91,12 @@ img{
     background-color: #7541c8;
     border-radius: 10px;
     padding: 20px;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-position: top 15px right 65px;
+    background-repeat: no-repeat;
+    /* z-index: -2; */
 }
+
 .jeanette-testimonial{
     height: 100%;
     width: auto;
@@ -129,6 +135,10 @@ img{
 .user img:hover{
     transform: scale(1.1);
 }
+
+
+
+
 footer{
     text-align: center;
     font-size: 12px;
