@@ -94,7 +94,6 @@ img{
     background-image: url(./images/bg-pattern-quotation.svg);
     background-position: top 15px right 65px;
     background-repeat: no-repeat;
-    /* z-index: -2; */
 }
 
 .jeanette-testimonial{
